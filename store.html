@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="theme-color" content="#080808">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEJsYWNrIGZyYW1lIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiByeD0iMTAwIiBmaWxsPSIjMDgwODA4Ii8+CiAgPCEtLSBDZW50ZXJlZCBsaWdodCBibHVlIGxvZ28gLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTkuNSwgNjIpIj4KICAgIDxwYXRoIGQ9Ik0zMTAuNSAzNi4xMDM1VjE5Ni42MDRIMTUwVjM2LjEwMzVIMzEwLjVaTTE2MCAxODYuNjA0SDMwMC41VjQ2LjEwMzVIMTYwVjE4Ni42MDRaIiBmaWxsPSIjYjhkOWYwIi8+CiAgICA8cGF0aCBkPSJNMTYwLjUgMTk2LjEyMlYzMjcuNzM2TDAgMzQwVjE3OC41MjVMMTYwLjUgMTk2LjEyMlpNMTAgMzI5LjIwNkwxNTAuNSAzMTguNDcxVjIwNS4wODVMMTAgMTg5LjY4MlYzMjkuMjA2WiIgZmlsbD0iI2I4ZDlmMCIvPgogICAgPHBhdGggZD0iTTMwMCAxOTYuMTIyVjMyNy43MzZMNDYwLjUgMzQwVjE3OC41MjVMMzAwIDE5Ni4xMjJaTTQ1MC41IDMyOS4yMDZMMzEwIDMxOC40NzFWMjA1LjA4NUw0NTAuNSAxODkuNjgyVjMyOS4yMDZaIiBmaWxsPSIjYjhkOWYwIi8+CiAgICA8cGF0aCBkPSJNMjAyLjQwOSAxMDEuNDU2Vjg5LjI4NTRIMjU5Ljc1VjEwMS40NTZIMjM4LjM3NVYxNTkuMTA0SDIyMy43ODRWMTAxLjQ1NkgyMDIuNDA5WiIgZmlsbD0iI2I4ZDlmMCIvPgogICAgPHBhdGggZD0iTTU1LjA2ODEgMzAyLjEwNFYyMzIuMjg1SDgzLjAyMjdDODguMTU5IDIzMi4yODUgOTIuNDQzMSAyMzMuMDQ3IDk1Ljg3NDkgMjM0LjU2OUM5OS4zMDY4IDIzNi4wOTIgMTAxLjg4NiAyMzguMjA2IDEwMy42MTQgMjQwLjkxQzEwNS4zNDEgMjQzLjU5MiAxMDYuMjA0IDI0Ni42ODMgMTA2LjIwNCAyNTAuMTgzQzEwNi4yMDQgMjUyLjkxIDEwNS42NTkgMjU1LjMwOCAxMDQuNTY4IDI1Ny4zNzZDMTAzLjQ3NyAyNTkuNDIyIDEwMS45NzcgMjYxLjEwNCAxMDAuMDY4IDI2Mi40MjJDOTguMTgxOCAyNjMuNzE3IDk2LjAyMjcgMjY0LjYzOCA5My41OTA4IDI2NS4xODNWMjY1Ljg2NUM5Ni4yNDk5IDI2NS45NzkgOTguNzM4NiAyNjYuNzI5IDEwMS4wNTcgMjY4LjExNUMxMDMuMzk4IDI2OS41MDEgMTA1LjI5NSAyNzEuNDQ0IDEwNi43NSAyNzMuOTQ0QzEwOC4yMDQgMjc2LjQyMiAxMDguOTMyIDI3OS4zNzYgMTA4LjkzMiAyODIuODA4QzEwOC45MzIgMjg2LjUxMyAxMDguMDExIDI4OS44MTkgMTA2LjE3IDI5Mi43MjlDMTA0LjM1MiAyOTUuNjE1IDEwMS42NTkgMjk3Ljg5OSA5OC4wOTA4IDI5OS41ODFDOTQuNTIyNyAzMDEuMjYzIDkwLjEyNDkgMzAyLjEwNCA4NC44OTc3IDMwMi4xMDRINTUuMDY4MVpNNjkuODI5NSAyOTAuMDM1SDgxLjg2MzZDODUuOTc3MiAyOTAuMDM1IDg4Ljk3NzIgMjg5LjI1MSA5MC44NjM2IDI4Ny42ODNDOTIuNzQ5OSAyODYuMDkyIDkzLjY5MzEgMjgzLjk3OSA5My42OTMxIDI4MS4zNDJDOTMuNjkzMSAyNzkuNDEgOTMuMjI3MiAyNzcuNzA2IDkyLjI5NTQgMjc2LjIyOUM5MS4zNjM2IDI3NC43NTEgOTAuMDM0IDI3My41OTIgODguMzA2OCAyNzIuNzUxQzg2LjYwMjIgMjcxLjkxIDg0LjU2ODEgMjcxLjQ5IDgyLjIwNDUgMjcxLjQ5SDY5LjgyOTVWMjkwLjAzNVpNNjkuODI5NSAyNjEuNTAxSDgwLjc3MjdDODIuNzk1NCAyNjEuNTAxIDg0LjU5MDggMjYxLjE0OSA4Ni4xNTkgMjYwLjQ0NEM4Ny43NDk5IDI1OS43MTcgODguOTk5OSAyNTguNjk0IDg5LjkwOSAyNTcuMzc2QzkwLjg0MDggMjU2LjA1OCA5MS4zMDY4IDI1NC40NzkgOTEuMzA2OCAyNTIuNjM4QzkxLjMwNjggMjUwLjExNSA5MC40MDkgMjQ4LjA4MSA4OC42MTM2IDI0Ni41MzVDODYuODQwOCAyNDQuOTkgODQuMzE4MSAyNDQuMjE3IDgxLjA0NTQgMjQ0LjIxN0g2OS44Mjk1VjI2MS41MDFaIiBmaWxsPSIjYjhkOWYwIi8+CiAgICA8cGF0aCBkPSJNMzY4LjkwOSAyMzIuMjg1TDM4Mi45ODkgMjU2LjA4MUgzODMuNTM0TDM5Ny42ODIgMjMyLjI4NUg0MTQuMzUyTDM5My4wNDUgMjY3LjE5NEw0MTQuODI5IDMwMi4xMDRIMzk3Ljg1MkwzODMuNTM0IDI3OC4yNzRIMzgyLjk4OUwzNjguNjcgMzAyLjEwNEgzNTEuNzYxTDM3My42MTQgMjY3LjE5NEwzNTIuMTcgMjMyLjI4NUgzNjguOTA5WiIgZmlsbD0iI2I4ZDlmMCIvPgogIDwvZz4KPC9zdmc+Cg==" type="image/svg+xml">
+<meta property="og:title" content="Toolbox Studio | Systems & UX for Growing Businesses">
+<meta property="og:description" content="Business systems, UX design, and product audits for teams in Morocco and beyond. Clear workflows. Digital products people actually use.">
+<meta property="og:image" content="https://toolboxstudio.me/images/Coverdex.png">
+<meta property="og:url" content="https://toolboxstudio.me/">
+<meta name="twitter:card" content="summary_large_image">
+
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Store & Templates | Toolbox Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=8">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VNY9C2360J"></script>
     <script>
@@ -42,6 +50,10 @@
     <li><a href="index.html#about">About</a></li>
   </ul>
   <a href="appointment.html" class="nav-cta">Book a call</a>
+  <button class="hamburger-btn" aria-label="Toggle menu">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
 </nav>
 
 <!-- STORE HEADER -->
@@ -202,5 +214,8 @@
   </svg>
   <span>Chat on WhatsApp</span>
 </a>
+
+<!-- COOKIE BANNER -->
+<script src="cookie-banner.js?v=2"></script>
 </body>
 </html>
